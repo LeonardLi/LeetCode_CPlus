@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		297D255C1FA75B7900C02C2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 297D255B1FA75B7900C02C2F /* main.cpp */; };
+		297D25671FA75BF100C02C2F /* ReverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 297D25651FA75BF100C02C2F /* ReverseInteger.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		297D25581FA75B7900C02C2F /* LeetCode_CPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode_CPlus; sourceTree = BUILT_PRODUCTS_DIR; };
 		297D255B1FA75B7900C02C2F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		297D25651FA75BF100C02C2F /* ReverseInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseInteger.cpp; sourceTree = "<group>"; };
+		297D25661FA75BF100C02C2F /* ReverseInteger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ReverseInteger.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +60,35 @@
 		297D255A1FA75B7900C02C2F /* LeetCode_CPlus */ = {
 			isa = PBXGroup;
 			children = (
+				297D25641FA75BA400C02C2F /* Hard */,
+				297D25631FA75B8D00C02C2F /* Medium */,
+				297D25621FA75B8500C02C2F /* Easy */,
 				297D255B1FA75B7900C02C2F /* main.cpp */,
 			);
 			path = LeetCode_CPlus;
+			sourceTree = "<group>";
+		};
+		297D25621FA75B8500C02C2F /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+				297D25651FA75BF100C02C2F /* ReverseInteger.cpp */,
+				297D25661FA75BF100C02C2F /* ReverseInteger.hpp */,
+			);
+			name = Easy;
+			sourceTree = "<group>";
+		};
+		297D25631FA75B8D00C02C2F /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Medium;
+			sourceTree = "<group>";
+		};
+		297D25641FA75BA400C02C2F /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Hard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				297D255C1FA75B7900C02C2F /* main.cpp in Sources */,
+				297D25671FA75BF100C02C2F /* ReverseInteger.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

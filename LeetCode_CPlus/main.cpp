@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
-
+#include "ReverseInteger.hpp"
 int main(int argc, const char * argv[]) {
     // insert code here...
+    ReverseInteger* rt = new ReverseInteger;
+    ;
+    
     std::cout << "Hello, World!\n";
+    std::cout << rt->reverse(-2147483648);
+
     return 0;
 }
